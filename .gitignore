@@ -1,0 +1,58 @@
+# =============================================
+# .gitignore — Brew House Coffee Shop
+# =============================================
+
+# --- Sistema Operacional ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Editores e IDEs ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+
+# --- Antigravity / Gemini (ferramentas de IA) ---
+.agents/
+.gemini/
+
+# --- Variáveis de Ambiente ---
+.env
+.env.local
+.env.*.local
+.env.production
+
+# --- Logs ---
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+
+# --- Dependências (Node.js — caso futuro) ---
+node_modules/
+.npm
+
+# --- Build / Dist (caso futuro) ---
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# --- Arquivos temporários ---
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# --- Docs internos (briefings, rascunhos) ---
+.docs/
+"Primeiro Prompt ChatGPT - Refatoração.txt"
